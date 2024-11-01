@@ -225,7 +225,7 @@ namespace DreadScripts.Localization
         private void OnEnable()
         {
             targetScriptable = (LocalizationScriptableBase) target;
-            _targetLocalizationHandler = LocalizationHandler<LocalizationScriptableBase>.CreateFromLanguages(targetScriptable);
+            _targetLocalizationHandler = new LocalizationHandler<LocalizationScriptableBase>(false, targetScriptable);
             
             if (languageOptions == null)
             {
@@ -248,8 +248,8 @@ namespace DreadScripts.Localization
             else languageOptionIndex++;
             
             OnOptionsChanged();
-            _comparisonLocalizationHandler =  LocalizationHandler<LocalizationScriptableBase>.CreateFromLanguages((LocalizationScriptableBase[])Resources.FindObjectsOfTypeAll(target.GetType()));
-            _comparisonLocalizationHandler.onLanguageChanged = RefreshKeyMatches;
+            var loadedLanguages = ((LocalizationScriptableBase[]) Resources.FindObjectsOfTypeAll(target.GetType())).OrderBy(l => l.languageName).ToArray();
+            _comparisonLocalizationHandler = new LocalizationHandler<LocalizationScriptableBase>(false, loadedLanguages) {onLanguageChanged = RefreshKeyMatches};
             keyCollections = targetScriptable.keyCollections;
             toolbarOptions = keyCollections.Select(kc => kc.collectionName).ToArray();
             RefreshKeyMatches();
@@ -595,7 +595,7 @@ namespace DreadScripts.Localization
         
         private void OnEnable()
         {
-            _localizationHandlerLocalizer = LocalizationHandler<LocalizationLocalization>.LoadLanguagesFromAssets();
+            _localizationHandlerLocalizer = new LocalizationHandler<LocalizationLocalization>();
         }
     }
     
