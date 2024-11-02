@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a74cd046faed01940be558b7203051dc, type: 3}
+  m_Name: Swedish
+  m_EditorClassIdentifier: 
+  languageName: Svenska
+  localizedContent:
+  - keyName: EditorLanguageSelectionField
+    content:
+      text: "Redigerar spr\xE5kval"
+      tooltip: "Spr\xE5ket f\xF6r lokaliseringsredigeraren."
+  - keyName: LanguageNameField
+    content:
+      text: "Spr\xE5knamn"
+      tooltip: "Namnet p\xE5 spr\xE5ket. Det h\xE4r \xE4r vad som visas i rullgardinsmenyn
+        f\xF6r spr\xE5k."
+  - keyName: SearchField
+    content:
+      text: "S\xF6k"
+      tooltip: "Filtrerar nycklarna f\xF6r endast de som inneh\xE5ller denna text."
+  - keyName: ShowKeyNameToggle
+    content:
+      text: Visa nyckelnamn
+      tooltip: "F\xF6r kolumnen Nyckelnamn."
+  - keyName: ShowComparisonToggle
+    content:
+      text: "Visa j\xE4mf\xF6relse"
+      tooltip: "J\xE4mf\xF6r med ett annat spr\xE5k f\xF6r att underl\xE4tta \xF6vers\xE4ttning."
+  - keyName: ShowDisplayToggle
+    content:
+      text: Visa slutgiltig visning
+      tooltip: "Detta visar hur inneh\xE5llet kommer att se ut i redigerarna."
+  - keyName: ComparisonField
+    content:
+      text: "J\xE4mf\xF6relsespr\xE5k"
+      tooltip: 
+  - keyName: KeyNameTitle
+    content:
+      text: Namn
+      tooltip: 
+  - keyName: TranslationTitle
+    content:
+      text: "\xD6vers\xE4ttning"
+      tooltip: 
+  - keyName: ComparisonTitle
+    content:
+      text: "J\xE4mf\xF6relse"
+      tooltip: 
+  - keyName: DisplayTitle
+    content:
+      text: Slutlig visning
+      tooltip: 
+  - keyName: TranslationTextField
+    content:
+      text: Text
+      tooltip: 
+  - keyName: TranslationTooltipField
+    content:
+      text: Verktygstips
+      tooltip: 
+  - keyName: BaseLocalizationTitle
+    content:
+      text: Lokalisation
+      tooltip: 
+  - keyName: BaseLocalizationSelectionHelp
+    content:
+      text: "V\xE4lj vad du vill g\xF6ra en \xF6vers\xE4ttning f\xF6r.\nOm du inte
+        ser din klass h\xE4r, se till att den \xE4rver fr\xE5n 'LocalizationScriptableBase'."
+      tooltip: 
+  - keyName: BaseLocalizationSelectionField
+    content:
+      text: "Klass att \xF6vers\xE4tta"
+      tooltip: 
+  - keyName: ExtrasFoldout
+    content:
+      text: Redigerarverktyg
+      tooltip: 
+  - keyName: HelpIcon
+    content:
+      text: 
+      tooltip: "Detta \xE4r en \xF6vers\xE4ttningsfil f\xF6r det associerade skriptet.\nDu
+        kan skriva din \xF6vers\xE4ttning i '\xD6vers\xE4ttning'-kolumnen.\nDu kan
+        v\xE4lja ett spr\xE5k att j\xE4mf\xF6ra med f\xF6r enklare \xF6vers\xE4ttning."
+  - keyName: LineParseFailLog
+    content:
+      text: "Rad {0} kunde inte tolkas och hoppades \xF6ver."
+      tooltip: 
+  - keyName: KeyNotFoundLog
+    content:
+      text: "Nyckel {0} finns inte i n\xE5gon nyckelsamling och hoppades \xF6ver."
+      tooltip: 
+  - keyName: CSVPasteFinishLog
+    content:
+      text: "Kopiering till lokaliseringsfil \xE4r slutf\xF6rd."
+      tooltip: 
+  - keyName: CopyCategory
+    content:
+      text: Kopiera kategori som CSV
+      tooltip: 
+  - keyName: PasteCategory
+    content:
+      text: Klistra in kategori som CSV
+      tooltip: 
+  - keyName: CopyAll
+    content:
+      text: Kopiera allt som CSV
+      tooltip: 
+  - keyName: PasteAll
+    content:
+      text: Klistra in allt som CSV
+      tooltip: 
+  - keyName: PreferredLanguageMenuItem
+    content:
+      text: "Ange {0} som f\xF6redraget spr\xE5k"
+      tooltip: 
+  - keyName: PreferredLanguageSetLog
+    content:
+      text: "F\xF6redraget spr\xE5k \xE4r inst\xE4llt p\xE5 {0}. Detta kommer att
+        f\xF6rs\xF6ka vara standardspr\xE5ket om inget specifikt spr\xE5k \xE4r inst\xE4llt."
+      tooltip: 
+  - keyName: MissingContent
+    content:
+      text: "[Saknat inneh\xE5ll]"
+      tooltip: "Detta inneh\xE5ll saknas fr\xE5n lokaliseringsfilen."
+  - keyName: PopoutAutoClose
+    content:
+      text: "St\xE4ng n\xE4r den inte \xE4r i fokus"
+      tooltip: "F\xF6nstret st\xE4ngs automatiskt n\xE4r annat f\xE5r fokus."
+  - keyName: CleanUpKeys
+    content:
+      text: "Rensa upp oanv\xE4nda nycklar"
+      tooltip: 

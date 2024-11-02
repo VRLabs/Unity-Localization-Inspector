@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a74cd046faed01940be558b7203051dc, type: 3}
+  m_Name: Danish
+  m_EditorClassIdentifier: 
+  languageName: Dansk
+  localizedContent:
+  - keyName: EditorLanguageSelectionField
+    content:
+      text: Redigeringssprog valg
+      tooltip: Sproget for lokaliseringseditoren.
+  - keyName: LanguageNameField
+    content:
+      text: Sprognavn
+      tooltip: "Navnet p\xE5 sproget. Dette er hvad der vises i dropdown-menuen for
+        sprog."
+  - keyName: SearchField
+    content:
+      text: "S\xF8g"
+      tooltip: "Filtrerer n\xF8glerne for kun dem, der indeholder denne tekst."
+  - keyName: ShowKeyNameToggle
+    content:
+      text: "Vis n\xF8gle navne"
+      tooltip: "For kolonnen N\xF8gle navn."
+  - keyName: ShowComparisonToggle
+    content:
+      text: Vis sammenligning
+      tooltip: "Sammenlign med et andet sprog for at g\xF8re overs\xE6ttelsen lettere."
+  - keyName: ShowDisplayToggle
+    content:
+      text: Vis endelig visning
+      tooltip: Dette viser, hvordan indholdet vil se ud i redigererne.
+  - keyName: ComparisonField
+    content:
+      text: Sammenligningsproget
+      tooltip: 
+  - keyName: KeyNameTitle
+    content:
+      text: Navne
+      tooltip: 
+  - keyName: TranslationTitle
+    content:
+      text: "Overs\xE6ttelse"
+      tooltip: 
+  - keyName: ComparisonTitle
+    content:
+      text: Sammenligning
+      tooltip: 
+  - keyName: DisplayTitle
+    content:
+      text: Endelig visning
+      tooltip: 
+  - keyName: TranslationTextField
+    content:
+      text: Tekst
+      tooltip: 
+  - keyName: TranslationTooltipField
+    content:
+      text: "V\xE6rkt\xF8jstip"
+      tooltip: 
+  - keyName: BaseLocalizationTitle
+    content:
+      text: Lokalisation
+      tooltip: 
+  - keyName: BaseLocalizationSelectionHelp
+    content:
+      text: "V\xE6lg hvad du vil lave en overs\xE6ttelse til.\nHvis du ikke ser din
+        klasse her, skal du s\xF8rge for, at den arver fra 'LocalizationScriptableBase'."
+      tooltip: 
+  - keyName: BaseLocalizationSelectionField
+    content:
+      text: "Klasse at overs\xE6tte"
+      tooltip: 
+  - keyName: ExtrasFoldout
+    content:
+      text: "Redigeringsv\xE6rkt\xF8j"
+      tooltip: 
+  - keyName: HelpIcon
+    content:
+      text: 
+      tooltip: "Dette er en overs\xE6tningsfil for det tilknyttede script.\nDu kan
+        skrive din overs\xE6ttelse i 'Overs\xE6ttelse'-kolonnen.\nDu kan v\xE6lge
+        et sprog at sammenligne med for lettere overs\xE6ttelse."
+  - keyName: LineParseFailLog
+    content:
+      text: Linje {0} kunne ikke parses og blev sprunget over.
+      tooltip: 
+  - keyName: KeyNotFoundLog
+    content:
+      text: "N\xF8gle {0} eksisterer ikke i nogen n\xF8glesamling og blev sprunget
+        over."
+      tooltip: 
+  - keyName: CSVPasteFinishLog
+    content:
+      text: "F\xE6rdig med at inds\xE6tte i lokaliseringsfilen."
+      tooltip: 
+  - keyName: CopyCategory
+    content:
+      text: Kopier kategori som CSV
+      tooltip: 
+  - keyName: PasteCategory
+    content:
+      text: "Inds\xE6t kategori som CSV"
+      tooltip: 
+  - keyName: CopyAll
+    content:
+      text: Kopier alt som CSV
+      tooltip: 
+  - keyName: PasteAll
+    content:
+      text: "Inds\xE6t alt som CSV"
+      tooltip: 
+  - keyName: PreferredLanguageMenuItem
+    content:
+      text: "S\xE6t {0} som foretrukket sprog"
+      tooltip: 
+  - keyName: PreferredLanguageSetLog
+    content:
+      text: "Foretrukket sprog er indstillet til {0}. Dette vil fors\xF8ge at v\xE6re
+        standardsproget, hvis der ikke er indstillet noget specifikt sprog."
+      tooltip: 
+  - keyName: MissingContent
+    content:
+      text: '[Manglende indhold]'
+      tooltip: Dette indhold mangler fra lokaliseringsfilen.
+  - keyName: PopoutAutoClose
+    content:
+      text: "Luk n\xE5r ikke i fokus"
+      tooltip: "Vinduet lukker automatisk, n\xE5r noget andet f\xE5r fokus."
+  - keyName: CleanUpKeys
+    content:
+      text: "Ryd op i ubrugte n\xF8gler"
+      tooltip: 
