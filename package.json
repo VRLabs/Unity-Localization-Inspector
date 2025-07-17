@@ -1,0 +1,33 @@
+{
+  "name": "dev.vrlabs.unity-localization-inspector",
+  "displayName": "Unity-Localization-Inspector",
+  "version": "1.0.999",
+  "license": "MIT",
+  "unity": "2019.4",
+  "author": {
+    "name": "VRLabs",
+    "email": "mail@vrlabs.dev",
+    "url": "https://vrlabs.dev"
+  },
+  "description": "A handy GUI for the Unity-Localization-Core framework.",
+  "keywords": [
+    "Editor",
+    "Utility",
+    "Selection"
+  ],
+  "gitDependencies": {},
+  "vpmDependencies": {
+  },
+  "legacyFolders": {
+    "Assets/VRLabs/Unity-Localization-Inspector": "4631bf5045971da479e8473d108cec64"
+  },
+  "unityPackageDestinationFolder": "Packages/dev.vrlabs.unity-localization-inspector",
+  "unityPackageDestinationFolderMetas": {},
+  "vccRepoCategory": "rehosted",
+  "siteUrl": "https://github.com/VRLabs/Unity-Localization-Inspector",
+  "media": {
+    "previewImage": "https://raw.githubusercontent.com/VRLabs/Unity-Localization-Inspector/main/Media/Web/Preview.webp",
+    "previewGif": "https://raw.githubusercontent.com/VRLabs/Unity-Localization-Inspector/main/Media/Web/PreviewGif.webp"
+  },
+  "legacyFiles": {}
+}

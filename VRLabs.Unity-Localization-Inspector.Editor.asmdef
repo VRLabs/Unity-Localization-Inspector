@@ -1,5 +1,6 @@
 {
-    "name": "com.dreadscripts.localization.Editor",
+    "name": "VRLabs.Unity-Localization-Inspector.Editor",
+    "rootNamespace": "",
     "references": [
         "GUID:5310497b387edc24db91f997b59edb91"
     ],
