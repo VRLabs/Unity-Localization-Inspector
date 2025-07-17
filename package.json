@@ -17,6 +17,7 @@
   ],
   "gitDependencies": {},
   "vpmDependencies": {
+    "dev.vrlabs.unity-localization-core": "^1.0.0"
   },
   "legacyFolders": {
     "Assets/VRLabs/Unity-Localization-Inspector": "4631bf5045971da479e8473d108cec64"
