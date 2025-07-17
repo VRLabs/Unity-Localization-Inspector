@@ -14,7 +14,7 @@ Note: this fork goes against Dreadrith's, the Original Author, wishes. Is is how
 
 A handy GUI for the Unity-Localization-Core framework.
 
-[Todo add gif]
+<img src="https://github.com/user-attachments/assets/6135be78-28c5-4fb3-bfac-29c4f72c6c3b" />
 
 ### ⬇️ [Download Latest Version](https://github.com/VRLabs/Unity-Localiation-Inspector/releases/latest)
 
