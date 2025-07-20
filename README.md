@@ -4,7 +4,7 @@ Note: this fork goes against Dreadrith's, the Original Author, wishes. Is is how
 
 # Unity-Localization-Inspector
 
-[![Generic badge](https://img.shields.io/github/downloads/VRLabs/Unity-Localiation-Inspector/total?label=Downloads)](https://github.com/VRLabs/Unity-Localiation-Inspector/releases/latest)
+[![Generic badge](https://img.shields.io/github/downloads/VRLabs/Unity-Localization-Inspector/total?label=Downloads)](https://github.com/VRLabs/Unity-Localization-Inspector/releases/latest)
 [![Generic badge](https://img.shields.io/badge/License-MIT-informational.svg)](https://github.com/VRLabs/Unity-Localization-Inspector/blob/main/LICENSE)
 [![Generic badge](https://img.shields.io/badge/Unity-2019.4.31f1-lightblue.svg)](https://unity3d.com/unity/whats-new/2019.4.31)
 [![Generic badge](https://img.shields.io/badge/SDK-AvatarSDK3-lightblue.svg)](https://vrchat.com/home/download)
@@ -16,10 +16,10 @@ A handy GUI for the Unity-Localization-Core framework.
 
 <img src="https://github.com/user-attachments/assets/6135be78-28c5-4fb3-bfac-29c4f72c6c3b" />
 
-### ⬇️ [Download Latest Version](https://github.com/VRLabs/Unity-Localiation-Inspector/releases/latest)
+### ⬇️ [Download Latest Version](https://github.com/VRLabs/Unity-Localization-Inspector/releases/latest)
 
 
-### 📦 [Add to VRChat Creator Companion](https://vrlabs.dev/packages?package=dev.vrlabs.unity-localiation-inspector)
+### 📦 [Add to VRChat Creator Companion](https://vrlabs.dev/packages?package=dev.vrlabs.unity-Localization-inspector)
 
 </div>
 
